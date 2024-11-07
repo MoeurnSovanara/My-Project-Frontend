@@ -1,0 +1,267 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aboutUs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="bootstraplink1v5.3.min.css">
+    <title>AboutUs</title>
+</head>
+<body>
+    <div class="container-fluid container1">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./pic/logoShop.png" alt="Gift Shop">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end d-none d-lg-flex" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><b>Home</b></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="categoryDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <b>Shop by Category</b>
+                            </a>
+                            <ul class="dropdown-menu border-2" aria-labelledby="categoryDropdown">
+                                <li><a class="dropdown-item" href="Accessory.html">Accessories</a></li>
+                                <li><a class="dropdown-item" href="cards.html">Cards</a></li>
+                                <li><a class="dropdown-item" href="clothing.html">Clothing</a></li>
+                                <li><a class="dropdown-item" href="handbag.html">Handbags</a></li>
+                                <li><a class="dropdown-item" href="jewel.html">Jewelries</a></li>
+                                <li><a class="dropdown-item" href="officeAndStation.html">Office & Stationary</a></li>
+                                <li><a class="dropdown-item" href="toys.html">Toys</a></li>
+                                <li><a class="dropdown-item" href="wallet.html">Wallets</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="SpecailOffice.html"><b>Special Offers</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><b>About Us</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactUs.html"><b>
+                                Contact Us</b>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="icon d-flex align-items-center">
+                        <i class="fas fa-search me-3"></i>
+                        <div class="iconCart">
+                            <i class="fas fa-shopping-cart me-3"></i>
+                            <div class="totalQuantity">
+                                <span>0</span>
+                            </div>
+                        </div>
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Off-canvas Menu-->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasMenuLabel">Gift Shop</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="categoryDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <b>Shop by Category</b>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
+                            <li><a class="dropdown-item" href="Accessory.html">Accessories</a></li>
+                            <li><a class="dropdown-item" href="cards.html">Cards</a></li>
+                            <li><a class="dropdown-item" href="clothing.html">Clothing</a></li>
+                            <li><a class="dropdown-item" href="handbag.html">Handbags</a></li>
+                            <li><a class="dropdown-item" href="jewel.html">Jewelries</a></li>
+                            <li><a class="dropdown-item" href="officeAndStation.html">Office & Stationary</a></li>
+                            <li><a class="dropdown-item" href="toys.html">Toys</a></li>
+                            <li><a class="dropdown-item" href="wallet.html">Wallets</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="SpecailOffice.html"><b>Special Offers</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutUs.html"><b>About Us</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactUs.html"><b>Contact Us</b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="cart">
+            <h2>
+                Shopping Cart
+                <hr>
+            </h2>
+            
+            <div class="listCart">
+                <div class="item">
+                    <img src="pic/p1.gif">
+                    <div class="content">
+                        <div class="name">CoPilot / Black / Automatic</div>
+                        <div class="price">$550 / 1 product</div>
+                    </div>
+                    <div class="quantity">
+                        <button>-</button>
+                        <span class="value">0</span>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="close">
+                    <a href="">CLOSE</a>
+                </div>
+                <div class="checkout">
+                    <a href="checkout.html">CHECKOUT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- container2 -->
+    <div class="container container2 p-4 mt-4">
+        <div class="text">
+            <br><br>
+            <h1 class="text-center">AboutUs<h1>
+            <div class="align-items-center justify-content-center d-flex">
+                <hr style="border: 5px solid orangered; width: 70px; border-radius: 5px;">
+            </div>
+            <br>
+        </div>
+        <div class="small-text w-100 d-flex justify-content-center align-items-center">
+            <h3 class="text-center w-50">We are a Gift Shop started in 2010 lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</h3>
+        </div>
+        <div class="row d-flex">
+            <div class="col-md-12 mt-5">
+                <div class="card-img w-100 container p-5">
+                    <img src="./pic/aboutus.jpg" alt="" class="w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- container3 -->
+    <div class="container container3 mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="text">
+                    <h1>What we do</h1>
+                    <hr style="border: 2px solid orangered; width: 10%;">
+                    <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12"><div class="text">
+                        <h1>Mission</h1>
+                        <hr style="border: 2px solid orangered; width: 10%;">
+                        <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</strong>
+                    </div>
+                    <div class="col-md-12 mt-5"><div class="text">
+                        <h1 class="mt-5">Mission</h1>
+                        <hr style="border: 2px solid orangered; width: 10%;">
+                        <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- container4 -->
+    <div class="container container4 mt-5">
+        <div class="row">
+            <div class="col-md-3 mt-5">
+                <h1 class="mt-5">What we start for</h1>
+                <hr style="border: 2px solid orangered; width: 25%;">
+            </div>
+            <div class="col-md-3 mt-5">
+                <div class="card mt-5 p-2">
+                    <hr style="border: 2px solid orangered; width: 10%;">
+                    <h4>Customer Centricity</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="col-md-3 mt-5">
+                <div class="card mt-5 p-2">
+                    <hr style="border: 2px solid orangered; width: 10%;">
+                    <h4>Trust & Integrity</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="col-md-3 mt-5">
+                <div class="card mt-5 p-2">
+                    <hr style="border: 2px solid orangered; width: 10%;">
+                    <h4 >Cost Conscious</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- container5 -->
+    <div class="container container5 mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <a class="navbar-brand" href="#">
+                    <img src="./pic/logoShop.png" alt="Gift Shop">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <ul class="list-unstyled">
+                    <li><a href="Accessory.html">Accessories (6)</a></li>
+                    <li><a href="cards.html">Cards (6)</a></li>
+                    <li><a href="clothing.html">Clothing (6)</a></li>
+                    <li><a href="handbag.html">Handbags (6)</a></li>
+                    <li><a href="jewel.html">Jewelries (6)</a></li>
+                    <li><a href="officeAndStation.html">Office &</a></li>
+                    <li><a href="officeAndStation.html">Stationary (6)</a></li>
+                    <li><a href="toys.html">Toys (6)</a></li>
+                    <li><a href="wallet.html">Wallets (6)</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul class="list-unstyled">
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Sign up for special offers</h5>
+                <form>
+                    <input type="email" class="form-control mt-3" placeholder="Email Address">
+                    <button type="submit" class="btn mt-3">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-3 p-4">
+            <div class="col-md-6 ">
+                <p class="mb-0">Copyright&copy; 2024 Gift Shop | Powered by Gift Shop</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+                <a href="#" class="me-3"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="me-3"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" class="me-3"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="me-3"><i class="fa-brands fa-facebook"></i></i></a>
+                <a href="#" class="me-3"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>    
+</body>
+<script src="App.js"></script>
+<script src="bootstrap1v5.3.bundle.min.js"></script>
+</html>
